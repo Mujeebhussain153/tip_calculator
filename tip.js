@@ -7,8 +7,13 @@ const persons = {
 }
 
 incrementPeople.onclick = () => {
-    persons['plus']+=1
-    document.getElementById('people').innerText = persons['plus']
+    if (persons.plus >= 15){
+        return
+    }
+    else {
+        persons['plus']+=1
+        document.getElementById('people').innerText = persons['plus']
+    }
 }
 
 decrementPeople.onclick = () => {
