@@ -12,14 +12,19 @@
     <div class="main">
         <div class="sub-main">
             <label for="amount">Amount</label><br>
-            <input type="text" id="amount" placeholder="Enter Amount" class="input-elements"><br>
+            <input type="text" id="amount" placeholder="$ Amount" class="input-elements"><br>
             <label for="tip">Tip</label><br>
-            <input type="text" id="tip" placeholder="Enter Tip in %" class="input-elements"><br>
+            <input type="text" id="tip" placeholder="% Tip" class="input-elements"><br>
             <label for="tip">Persons</label><br>
-            <div class="inc-dnc">
-                <i class="fa-solid fa-square-minus" id="decrement"></i>
-                <p id="people" style="height: 35px;">1</p>
-                <i class="fa-solid fa-square-plus" id="increment"></i>
+            <div class="calculations">
+                <div class="inc-dnc">
+                    <i class="fa-solid fa-square-minus" id="decrement"></i>
+                    <p id="people" style="height: 35px;">1</p>
+                    <i class="fa-solid fa-square-plus" id="increment"></i>
+                </div>
+                <div class="total">
+                    <p id="people" style="height: 35px;">$ 0</p>
+                </div>
             </div>
         </div>
     </div>
