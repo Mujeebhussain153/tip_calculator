@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="tip.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="sub-main">
+            <label for="amount">Amount</label><br>
+            <input type="text" id="amount" placeholder="Enter Amount" class="input-elements"><br>
+            <label for="tip">Tip</label><br>
+            <input type="text" id="tip" placeholder="Enter Tip in %" class="input-elements"><br>
+            <label for="tip">Persons</label><br>
+            <div class="inc-dnc">
+                <i class="fa-solid fa-square-minus" id="decrement"></i>
+                <p id="people" style="height: 35px;">1</p>
+                <i class="fa-solid fa-square-plus" id="increment"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
